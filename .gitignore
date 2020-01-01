@@ -13,3 +13,4 @@ cdk.out
 *_env/
 .DS_Store
 *.sqlite3
+*/__pycache__/*
