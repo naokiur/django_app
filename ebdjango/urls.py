@@ -18,5 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('quickstart/', include('quickstart.urls')),
+    path('quickstart/', include('ebdjango.quickstart.urls')),
 ]
