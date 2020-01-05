@@ -1,7 +1,7 @@
 version: 0.2
 env:
     variables:
-        ZIP_FILE: /tmp/upload.zip
+        ZIP_FILE: source.zip
 phases:
 #    pre_build:
 #        commands:
