@@ -1,7 +1,7 @@
 version: 0.2
-#env:
-#    variables:
-#        ZIP_FILE: source.zip
+env:
+    variables:
+        ZIP_FILE: source.zip
 phases:
 #    pre_build:
 #        commands:
@@ -16,4 +16,3 @@ artifacts:
     type: zip
     files:
         - '**/*'
-    name: source.zip
