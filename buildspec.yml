@@ -6,9 +6,9 @@ phases:
 #    pre_build:
 #        commands:
 #            -
-#    build:
-#        commands:
-#            - zip -r -q ${ZIP_FILE} *
+    build:
+        commands:
+            - zip -r -q ${ZIP_FILE} *
     post_build:
         commands:
             - echo Deploy completed
