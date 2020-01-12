@@ -3,8 +3,9 @@ env:
     variables:
         ZIP_FILE_NAME: source.zip
 phases:
-    runtime-versions:
-        python: 37
+    install:
+        runtime-versions:
+            python: 37
 #    pre_build:
 #        commands:
 #            -
