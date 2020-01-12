@@ -3,17 +3,17 @@ env:
     variables:
         ZIP_FILE_NAME: source.zip
 phases:
+    runtime-versions:
+        python: 37
 #    pre_build:
 #        commands:
 #            -
     build:
         commands:
-            - ls -ltar
             - zip -r -q ${ZIP_FILE_NAME} *
     post_build:
         commands:
             - echo Deploy completed
 artifacts:
-    type: zip
     files:
-        - ${ZIP_FILE_NAME}
+        - '**/*'
