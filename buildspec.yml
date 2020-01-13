@@ -1,17 +1,8 @@
 version: 0.2
-#env:
-#    variables:
-#        ZIP_FILE_NAME: source.zip
 phases:
     install:
         runtime-versions:
             python: 3.7
-#    pre_build:
-#        commands:
-#            -
-#    build:
-#        commands:
-#            - zip -r -q ${ZIP_FILE_NAME} *
     post_build:
         commands:
             - echo Deploy completed
