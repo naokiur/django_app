@@ -1,7 +1,7 @@
 version: 0.2
-env:
-    variables:
-        ZIP_FILE_NAME: source.zip
+#env:
+#    variables:
+#        ZIP_FILE_NAME: source.zip
 phases:
     install:
         runtime-versions:
@@ -9,9 +9,9 @@ phases:
 #    pre_build:
 #        commands:
 #            -
-    build:
-        commands:
-            - zip -r -q ${ZIP_FILE_NAME} *
+#    build:
+#        commands:
+#            - zip -r -q ${ZIP_FILE_NAME} *
     post_build:
         commands:
             - echo Deploy completed
